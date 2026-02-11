@@ -1,1 +1,0 @@
-# pamus_new
