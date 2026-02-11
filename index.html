@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PAMUS - Hero Video</title>
+    <link rel="stylesheet" href="resource/css/style.css" />
+  </head>
+  <body>
+    <!-- GNB -->
+    <header class="gnb">
+      <div class="gnb__inner">
+        <a class="brand" href="#">
+          <img
+            class="brand__logo"
+            src="resource/image/logo.png"
+            alt="파머스영어"
+          />
+        </a>
+
+        <nav class="nav" aria-label="주요 메뉴">
+          <a class="nav__item" href="#">PAMUS</a>
+          <a class="nav__item" href="#">초등 소통영어</a>
+          <a class="nav__item" href="#">중등 완성영어</a>
+          <a class="nav__item" href="#">입학안내</a>
+          <a class="nav__item" href="#">소식</a>
+          <a class="nav__item" href="#">고객지원</a>
+        </nav>
+
+        <div class="gnb__right">
+          <a class="btn-login" href="#">Login</a>
+
+          <div class="sns">
+            <a class="sns__icon" href="#" aria-label="블로그">b</a>
+            <a class="sns__icon sns__icon--ig" href="#" aria-label="인스타그램"
+              >ig</a
+            >
+            <a class="sns__icon sns__icon--yt" href="#" aria-label="유튜브"
+              >yt</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO (GNB 아래 풀스크린 영상) -->
+    <main>
+      <section class="hero" aria-label="메인 영상">
+        <video
+          class="hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+        >
+          <source src="resource/video/roof.mp4" type="video/mp4" />
+        </video>
+      </section>
+    </main>
+  </body>
+</html>
